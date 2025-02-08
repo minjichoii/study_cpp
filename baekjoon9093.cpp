@@ -9,5 +9,4 @@ int main(){
     cin >> n;
     cin.ignore();
 
-    
 }
