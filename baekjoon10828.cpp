@@ -22,7 +22,8 @@ int main(){
         else if (command == "pop"){
             if(s.size()==0){
                 result = -1;
-                cout << result << endl;//cout은 출력스트림, endl은 줄바꿈
+                cout << result << endl;
+                //cout은 출력스트림, endl은 줄바꿈
             }
             else {
                 result=s.top();
