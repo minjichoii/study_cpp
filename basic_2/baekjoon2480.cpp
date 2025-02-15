@@ -21,5 +21,6 @@ int main() {
     }
     else sum=a[2]*100;
 
+
     cout << sum ;
 }
