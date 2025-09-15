@@ -26,6 +26,7 @@ else zero += 10 * (call / 30 + 1);
 
 if (call % 60 == 0) min += 15 * (call / 60);
 else min += 15 * (call / 60 + 1);
+```
 
 ---
 
@@ -45,7 +46,9 @@ int main() {
     else if (Y == M) cout << "Y M " << Y;
     else cout << "M " << M;
 }
---
+```
+
+---
 
 ### ✅ 수정 후 배운 점
 - **조건문 없이 시간 단위 나누기**로 계산하는 습관.
